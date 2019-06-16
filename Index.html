@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>PizzaGame</title>
+
+        <link rel="stylesheet" href="Styles.css" />
+    </head>
+    <body>
+
+        <div id="divRoot">
+            <button id="btnStartGame" type="button">INIZIA GIOCO</button>
+
+            <div id="lblPizzasNr">Numero pizze:</div>
+
+            <div id="player1" class="playerId">
+                <div class="playerName">GIOCATORE A</div>
+                <div class="player">
+                    <div class="nrOfPizzasToEatContainer">
+                        <div class="lblNrOfPizzasToEat">Numero di pizze da mangiare:</div>
+                        <input type="number" value="1" min="1" max="3" class="slctNrOfPizzasToEat" disabled>
+                    </div>
+                    <button type="button" class="btnEat" disabled>Mangia pizze</button>
+                </div>
+            </div>
+
+            <div id="player2" class="playerId">
+                <div class="playerName">GIOCATORE B</div>
+                <div class="player">
+                    <div class="nrOfPizzasToEatContainer">
+                        <div class="lblNrOfPizzasToEat">Numero di pizze da mangiare:</div>
+                        <input type="number" value="1" min="1" max="3" class="slctNrOfPizzasToEat" disabled>
+                    </div>
+                    <button type="button" class="btnEat" disabled>Mangia pizze</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="PizzaGameManager.js"></script>
+        <script src="Scripts.js"></script>
+    </body>
+</html>

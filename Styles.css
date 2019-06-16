@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#divRoot {
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+    padding: 10px 3px 3px 3px;
+}
+
+#btnStartGame {
+	width: 100%;
+    font-size: 18px;
+    height: 35px;
+}
+
+#lblPizzasNr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: maroon;
+    background-color: rgb(255, 192, 128);
+    border: 1px solid black;
+    font-size: 24px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+}
+
+.playerName {
+    margin: 0px;
+    text-align: center;
+    font-size: 28px;
+    background-color: gray;
+}
+
+.player {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: silver;
+}
+
+.nrOfPizzasToEatContainer {
+    display: table;
+    margin: auto;
+}
+
+.lblNrOfPizzasToEat {
+    display: table-cell;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.slctNrOfPizzasToEat {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    display: table-cell;
+}
+
+.btnEat {
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    font-size: 16px;
+    height: 30px;
+}
